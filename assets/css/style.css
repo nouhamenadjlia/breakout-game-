@@ -7,6 +7,9 @@
 
 #start{
   margin-top:20px ;
+  color: #000;
+  border-radius: 4px;
+  cursor: pointer;
   }
 * {
   box-sizing: border-box;
@@ -18,7 +21,7 @@ body {
 }
 
 .game {
-  background-color: #222;
+  background-color: #d1e0e0;
   position: relative;
   display: flex;
   align-items: center;
@@ -50,18 +53,18 @@ body {
 }
 
 #restart {
-  color: #fff;
+  color: black;
   cursor: pointer;
   padding: 4px 8px;
   line-height: 1.5;
-  border: 1px solid #6198d8;
+  border: 1px solid #c89446;
   border-radius: 4px;
   text-align: center;
   transition: .1s ease-in-out;
 }
 
 #restart:hover {
-  background-color: #6198d8;
+  background-color: #c89446;
 }
 
 .sound-container {
@@ -81,7 +84,7 @@ body {
 }
 
 canvas {
-  background: #111;
+  background: #f4edd7;
   display: block;
   border-radius: 4px;
 }
